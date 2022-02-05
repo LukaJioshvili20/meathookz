@@ -1,5 +1,17 @@
-# meathookz
+# Meathookz - Luka's Homepage
+## Stack
+- [ Vue.js ](https://v3.vuejs.org/) - The Progressive
+  JavaScript Framework
+## Dependencies
+```
+Vue 3.0.0
 
+Vue Router 4.0.0-0
+
+Dart-sass 1.26.5
+
+Vue-SVG-loader 0.16.0
+```
 ## Project setup
 ```
 npm install

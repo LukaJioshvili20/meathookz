@@ -1,5 +1,5 @@
 <template>
-  <button class="btn">
+  <button class="btn" aria-label="Base Button">
     <slot></slot>
   </button>
 </template>

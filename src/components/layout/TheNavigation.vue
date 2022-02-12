@@ -10,11 +10,11 @@
       </div>
       <div class="mode">
         <div class="modeToggle">
-          <button class="modeIcon" @click="toggleMode"  :class="btnDark?'btn-dark':'btn-light'">
+          <button class="modeIcon" @click="toggleMode" :aria-label="!btnDark? 'Dark Mode' : 'Light Mode' "  :class="btnDark?'btn-dark':'btn-light'">
             <icon v-if="!btnDark" name="moon"></icon>
             <icon v-if="btnDark" name="sun"></icon>
           </button>
-          <button class="menuIcon" @click="toggleMobileNav" v-show="mobile" :class="btnDark?'btn-menu-dark':'btn-menu-light'">
+          <button class="menuIcon" @click="toggleMobileNav" aria-label="Menu Button" v-show="mobile" :class="btnDark?'btn-menu-dark':'btn-menu-light'">
             <icon name="bars"></icon>
           </button>
 
